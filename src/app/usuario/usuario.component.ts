@@ -9,12 +9,12 @@ import { UsuarioService } from '../usuario.service';
 })
 export class UsuarioComponent implements OnInit {
 
+  public usuarios:Usuario[] = []
 
-  public usuario:Usuario
   constructor(private usuarioService:UsuarioService) { }
 
   ngOnInit() {
-    this.usuario = this.usuarioService.getUsuario();
+    this.usuarios = this.usuarioService.listaUsuario()
   }
 
 }
