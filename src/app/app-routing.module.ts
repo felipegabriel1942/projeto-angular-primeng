@@ -5,9 +5,11 @@ const routes: Routes = [
   {path:  'home', 
     loadChildren: './home/home.module#HomeModule'
   },
-
   {path:  'usuario', 
     loadChildren: './usuario/usuario.module#UsuarioModule'
+  },
+  {path:  'estados', 
+    loadChildren: './estados/estados.module#EstadosModule'
   },
   {
     path:'full',
