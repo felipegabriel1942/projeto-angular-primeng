@@ -6,8 +6,8 @@ import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './footer/footer.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MenubarModule} from 'primeng/menubar';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MenubarModule } from 'primeng/menubar';
 
 
 @NgModule({
